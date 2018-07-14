@@ -1,3 +1,6 @@
 class Member
+  attr_accessor :name, :power, :bio
 
-end 
+  def initialize(name, power, bio)
+
+end
