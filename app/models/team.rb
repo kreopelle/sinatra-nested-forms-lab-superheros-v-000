@@ -3,6 +3,9 @@ class Team
   @@all = []
 
   def initialize(name, motto)
+    @name = name
+    @motto = motto
+    
 
 
 
