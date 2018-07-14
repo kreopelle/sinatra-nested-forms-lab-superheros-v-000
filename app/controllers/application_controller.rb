@@ -17,6 +17,8 @@ class App < Sinatra::Base
 
       members = Member.all
 
+      
+
     end
 
 
