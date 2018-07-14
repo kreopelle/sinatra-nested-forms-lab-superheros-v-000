@@ -13,7 +13,9 @@ class App < Sinatra::Base
 
       params[:team][:members].each do |details|
         Member.new(details)
-      end 
+      end
+
+      members = Member.all
 
     end
 
